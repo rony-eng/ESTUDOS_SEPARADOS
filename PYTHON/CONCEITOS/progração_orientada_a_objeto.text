@@ -1,0 +1,26 @@
+Programação Orientada a Objetos:
+É um paradigma que se baseia na ideia de que um programa deve ser composto por Objetos que interagem entre si.
+É um modelo a ser seguido enquanto você estiver escrevendo código e o foco principal é transformar conceitos do mundo real em classes
+
+Exemplo: 
+Imagina um cenário onde você tenha que criar um sistema seguindo padrão de orientação a objetos a função do sistema será fazer o
+controle interno de um biblioteca então você criaria uma classe livro para representar os livros da biblioteca.
+Essa classe teria atributos ou características como 'titulo' 'autor' 'ano de publicação', 
+e metodos ou comportamentos como emprestar() e devolver() e além disso teriamos que criar varias outras classes para representar
+tudo que envolve um sistema de biblioteca e assim o sistema vai criando forma. 
+Para finalizar o objeto é a classe instanciada ou é o que é criada a partir de uma classe, por exemplo quando invocarmos a 
+classe livro e atribuimos valores as suas propriedades daremos vida a um objeto o livro, código livro é um objeto criado a partir da classe livro
+assim como o livro refectoring é um segundo objeto criado a partir da classe livro.
+
+
+Classe Livro
+atributos 'titulo' 'autor' 'ano de publicação'
+metodos emprestar() e devolver()
+
+Classe Usuário
+atributos 'nome''idade''matricula'
+metodos solicitar_emprestimo()
+
+Classe Biblioteca
+atributos 'livros''usuários'
+metodos cadastrar_usuários() remover_usuários()
