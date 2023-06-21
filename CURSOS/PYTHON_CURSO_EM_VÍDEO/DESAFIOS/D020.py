@@ -1,5 +1,5 @@
-# O mesmo professor do desafio anterior quer sortear a ordem de apresentação de 
-# trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
+# O MESMO PROFESSOR DO DESAFIO ANTERIOR QUER SORTEAR A ORDEM DE APRESENTAÇÃO DE
+# TRABALHOS DOS ALUNOS. FAÇA UM PROGRAMA QUE LEIA O NOME DOS QUATROS ALUNOS E MOSTRE A ORDEM SORTEADA.
 
 import random #biblioteca para gerar números pseudo-aleatórios
 
