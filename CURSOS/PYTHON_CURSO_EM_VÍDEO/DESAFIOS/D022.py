@@ -20,3 +20,5 @@ print('')
 
 print(separa)
 print('------------------------------')
+
+# atividade concluída
