@@ -13,3 +13,5 @@ print('[A LETRA "A" APARECE A PRIMEIRA VEZ NA POSIÇÃO {}]'.format(frase.find('
 print('[A LETRA "A" APARECE A ULTIMA VEZ NA POSIÇÃO {}]'.format(frase.rfind('A')+1))
 print('------------------------------')
 print('')
+
+# DESAFIO CONCLUÍDO
