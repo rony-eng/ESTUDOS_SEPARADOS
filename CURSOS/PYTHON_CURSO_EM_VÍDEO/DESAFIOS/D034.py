@@ -10,4 +10,12 @@ if salario > 1.250:
 else:
     print('O aumento no seu sálario será de {}R$.'.format(aum15))
 
-# DESAFIO CONCLUÍDO, AINDA NÃO VI A RESOLUÇÃO
+# DESAFIO CONCLUÍDO ----------------------------------------------
+
+# RESOLUÇÃO SEGUNDO CURSO ----------------------------------------
+salário = float(input('Qual é o salário do funcionário? R$'))
+if salário <= 1250:
+    novo = salário + (salário * 15 / 100)
+else:
+    novo = salário + (salário * 10 / 100)
+print('Quem ganhava R${:.2f} passa a ganhar R${:.2f} agora.'.format(salário, novo))
