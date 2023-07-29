@@ -25,4 +25,5 @@ pega
 # PARTE PRÁTICA
 for c in range(0,6):
     print('Oi')
-print('FIM')
+    print('FIM')
+print('TERMINO DO FOR')
