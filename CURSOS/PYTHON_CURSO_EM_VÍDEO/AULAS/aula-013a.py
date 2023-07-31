@@ -40,3 +40,10 @@ p = int(input('Passo: '))
 for c in range(i, f+1, p):
     print(c)
 print('FIM')
+
+# FAZER UM SOMATÓRIO A PARTIR DO FOR
+s = 0
+for c in range(0, 4):
+    n = int(input('DIGITE UM VALOR: '))
+    s += n # += é a mesma coisa de s = s + n
+print('O SOMATÓRIO DE TODOS OS VALORES FOI {}'.format(s))
