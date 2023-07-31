@@ -29,6 +29,14 @@ for c in range(0,6):
 print('TERMINO DO FOR')
 
 # PARA A ORDEM AO CONTRÁRIO
-for c in range (6, 0, -1):
+for c in range (6, 0, -1): # o terceiro parametro é o passo, em quanto em quanto será contado, nesse caso sera contato de frente pra traz
     print(c)
 print('Fim!')
+
+# PARA UMA CONTAGEM, INFORMADO POR UMA VARIAVEL
+i = int(input('Início: '))
+f = int(input('Fim: '))
+p = int(input('Passo: '))
+for c in range(i, f+1, p):
+    print(c)
+print('FIM')
