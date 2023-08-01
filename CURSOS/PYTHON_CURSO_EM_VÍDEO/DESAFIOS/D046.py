@@ -11,3 +11,9 @@ for i in range(10, 0, -1):
 print('Feliz Ano Novo!')
 
 # DESAFIO CONCLUÍDO
+
+# RESOLUÇÃO DE ACORDO COM O CURSO
+for cont in range(10, -1, -1):
+    print(cont)
+    sleep(0.5)
+print('BUM! BUM! POOOW!')
