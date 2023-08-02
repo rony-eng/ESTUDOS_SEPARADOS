@@ -4,3 +4,8 @@ for i in range(0, 51, 2):
 print("FIM")
 
 # DESAFIO CONCLUÍDO
+
+# RESOLUÇÃO DE ACORDO COM O CURSO
+for n in range(2, 51, 2):
+    print(n, end=' ')
+print('Acabou')
