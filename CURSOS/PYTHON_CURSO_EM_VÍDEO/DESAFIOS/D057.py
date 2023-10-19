@@ -15,4 +15,4 @@ while sexo != 'SAIR':
     sexo = str(input('Qual o seu sexo? [M]/[F] ')).upper()
 
 
-# INCOMPLETO
+# RESPOSTA DE ACORDO COM O CURSO
