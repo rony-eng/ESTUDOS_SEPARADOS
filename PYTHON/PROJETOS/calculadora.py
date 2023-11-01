@@ -5,12 +5,12 @@ print('')
 print('-=-' * 10)
 print('OPERAÇÕES:')
 print('''
-                [1] SOMAR
-                [2] SUBTRAIR
-                [3] DIVIDIR
-                [4] MULTIPLICAR
-                [5] FACTORIAL
-                [0] FECHAR PROGRAMA
+            [1] SOMAR
+            [2] SUBTRAIR
+            [3] DIVIDIR
+            [4] MULTIPLICAR
+            [5] FACTORIAL
+            [0] FECHAR PROGRAMA
 ''')
 print('OBS: POR ENQUANTO ESTAMOS FUNCIONANDO COM OPERAÇÕES SIMPLES DE DOIS NÚMEROS.')
 operação = int(input('ESCOLHA > [1] [2] [3] [4] [5] [0]: '))
@@ -32,12 +32,12 @@ while operação != 0:
                 print('-=-' * 10)
                 print('OPERAÇÕES:')
                 print('''
-                [1] SOMAR
-                [2] SUBTRAIR
-                [3] DIVIDIR
-                [4] MULTIPLICAR
-                [5] FACTORIAL
-                [0] FECHAR PROGRAMA
+            [1] SOMAR
+            [2] SUBTRAIR
+            [3] DIVIDIR
+            [4] MULTIPLICAR
+            [5] FACTORIAL
+            [0] FECHAR PROGRAMA
                 ''')
                 print('OBS: POR ENQUANTO ESTAMOS FUNCIONANDO COM OPERAÇÕES SIMPLES DE DOIS NÚMEROS.')
                 operação = int(input('QUAL OPERAÇÃO DESEJA EFETUAR: '))
