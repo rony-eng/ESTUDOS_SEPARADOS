@@ -183,4 +183,3 @@ print('FIM DO PROGRAMA!')
     #termo = termo + razão
     #cont += 1
 #print('FIM')
-
