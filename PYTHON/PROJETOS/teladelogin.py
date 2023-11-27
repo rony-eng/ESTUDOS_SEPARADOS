@@ -1,17 +1,28 @@
-#import tkinter
-#
-#janela = tkinter.Tk() # criando a janela
-#janela.geometry('500x300') # definindo o tamanho da janela
+import customtkinter
+from tkinter import *
 
-#def clique():
-#    print('Fazer Login')
+customtkinter.set_appearance_mode("dark")
+customtkinter.set_default_color_theme("dark-blue")
 
+janela = customtkinter.CTk()
+janela.geometry("700x400")
+janela.title("Sistema de Login")
+janela.iconbitmap("") #coloca um icone de sua preferencia, com a extenção .ico
+janela.resizable(False, False)
 
-#texto = tkinter.Label(janela, text="Fazer Login") # criando um texto na janela
-#texto.pack(padx=10, pady=10) # definindo o tamanho do texto
+#trabalhanndo com a imagem da tela
+img = PhotoImage(file="ftlogin.jpg") #colocar uma imagem
+label_img = customtkinter.CTkLabel(master=janela, image=img)
+label_img.place(x=5, y=65)
 
-#botao = tkinter.Button(janela, text="Login", command=clique) # criando um botão, para criar um função cria-se lá em cima e passa o command
-#botao.pack(padx=10, pady=10)  # definindo o tamanho do botão
+#frame
+frame = customtkinter.CTkFrame(master=janela, width=350, height=396)
+frame.pack(side=RIGHT)
 
-#janela.mainloop()
+#frame widgets
+label = customtkinter.CTkLabel(master=frame, text="Sistema de login", text_font=("Roboto"))
+label.place(x=25, y=5)
 
+entry1 = customtkinter.CTkEntry(master=frame, placeholder_text="")
+
+janela.mainloop()
