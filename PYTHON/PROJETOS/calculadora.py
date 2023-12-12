@@ -10,6 +10,7 @@ print('''
             [3] DIVIDIR
             [4] MULTIPLICAR
             [5] FACTORIAL
+            [6] SEQUENCIA FIBONACCI
             [0] FECHAR PROGRAMA
 ''')
 print('OBS: POR ENQUANTO ESTAMOS FUNCIONANDO COM OPERAÇÕES SIMPLES DE DOIS NÚMEROS.')
@@ -152,6 +153,11 @@ while operação != 0:
             print('')
         else:
             break
+    elif operação == 6: #operação fibonacci - FALTAR TERMINAR ESTA OPERAÇÃO
+        print('OPERAÇÃO DE FIBONACCI')
+        n = int(input('Insira um número e descubra sua sequencia fibonacci'))
+        num = int(input('Quantos termos você quer ver da sua sequencia de fibonacci: '))
+
     else:
         print('OPERAÇÃO INCORRETA! TENTE NOVAMENTE')
         print('')
@@ -169,6 +175,7 @@ while operação != 0:
         operação = int(input('ESCOLHA > [1] [2] [3] [4] [5] [0]: '))
         print('-=-' * 10)
         print('')
+    
 
 print('FIM DO PROGRAMA!')
 
