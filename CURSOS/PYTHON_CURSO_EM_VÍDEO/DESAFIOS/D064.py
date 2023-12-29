@@ -18,3 +18,14 @@ print('a soma dos valores foi de {}!'.format(soma))
 print('')
 
 # resolução de acordo com o curso
+
+núm = 0
+cont = 0
+soma = 0
+# núm = cont = soma = 0
+núm = int(input('Digite um número [999 para parar]: '))
+while núm != 999:
+    soma += núm
+    cont += 1
+    núm = int(input('Digite um número [999 para parar]: '))
+print('Você digitou {} números e a soma entre eles foi {}.'.format(cont, soma))
