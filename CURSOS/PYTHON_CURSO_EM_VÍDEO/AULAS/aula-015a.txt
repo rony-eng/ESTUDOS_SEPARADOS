@@ -1,3 +1,13 @@
 Decima quinta aula do curso de python do curso em vídeo
 
 Interronpendo repetições while
+com o comando break
+
+exemplo:
+n = s = 0
+while True:
+    n = int(input('Digite um número: '))
+    if n == 999:
+        break
+    s += N
+print('A soma vale {}'.format(s))
