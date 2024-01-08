@@ -11,3 +11,8 @@ while True:
         break
     s += N
 print('A soma vale {}'.format(s))
+
+forma diferente de usar a formatação de string, a que está em cima é a partir do python 3
+a forma abaixo é mais atualizada
+
+print(f'A soma vale {s}')
