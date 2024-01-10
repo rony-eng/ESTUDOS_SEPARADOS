@@ -17,6 +17,8 @@ a forma abaixo é mais atualizada
 
 print(f'A soma vale {s}')
 
+---------------------------------------------------------------------------------------------------------------------------------------
+
 Desafios:
 D066:
     Crie um programa que leia vários números inteiros pelo teclado.  O programa só
@@ -24,3 +26,28 @@ D066:
     No final mostra quantos números foram digitados e qual foi a soma entre eles (desconsiderando o flag).
 
 D067:
+    Faça um programa que mostra a tabuada de vários números, um de cada vez, para cada valor digitado pelo
+    usuário. O programa será interrompido quando o número solicitado for negativo.
+
+#D068:
+    Faça um programa que jogue par ou impar com o computador. O jogo só será interrompido quando o jogador perder.
+    Mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
+
+#D069:
+    Crie um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa deverá perguntar se o usuário
+    quer ou não continuar. No final mostre:
+    A) quantas pessoas tem mais de 18 anos.
+    B) quantos homens foram cadastrados
+    C) quantas mulheres tem menos de 20 anos
+
+#D070:
+    Crie um programa que leia o nome e o preço de vários produtos. O programa deverá perguntar se o usuário vai continuar
+    No final mostre:
+    A) Qual é o total gasto na compra 
+    B) Quantos produtos custam mais de 1000
+    C) Qual é o nome do produto mais barato
+
+#D071:
+    Crie um programa que simule o funcionamento de um caixa eletrônico. No inicio, pergunte ao usuário qual será o valor a ser sacado (número inteiro) e o 
+    programa vai informar quantas cédulas de cada valor serão entregues..
+    obs: Considere que o caixa possui cedulas de 50, 20, 10 e 1.
