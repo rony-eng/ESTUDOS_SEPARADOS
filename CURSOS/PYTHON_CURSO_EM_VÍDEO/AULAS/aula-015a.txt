@@ -33,7 +33,7 @@ D068:
     Faça um programa que jogue par ou impar com o computador. O jogo só será interrompido quando o jogador perder.
     Mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
 
-#D069:
+D069:
     Crie um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa deverá perguntar se o usuário
     quer ou não continuar. No final mostre:
     A) quantas pessoas tem mais de 18 anos.
