@@ -47,7 +47,7 @@ D070:
     B) Quantos produtos custam mais de 1000
     C) Qual é o nome do produto mais barato
 
-#D071:
+D071:
     Crie um programa que simule o funcionamento de um caixa eletrônico. No inicio, pergunte ao usuário qual será o valor a ser sacado (número inteiro) e o 
     programa vai informar quantas cédulas de cada valor serão entregues..
     obs: Considere que o caixa possui cedulas de 50, 20, 10 e 1.
