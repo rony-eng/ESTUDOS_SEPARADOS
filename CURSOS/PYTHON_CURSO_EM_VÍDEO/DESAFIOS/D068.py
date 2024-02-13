@@ -3,8 +3,8 @@
 
 # MINHA RESOLUÇÃO
 print('')
-jogador = int(input('Sua escolha: 1[PAR] 2[INPAR]: '))
-if jogador == 1:
+jogador = int(input('Seu valor:  '))
+if jogador % 2 == 0:
     print('Sua escolha foi PAR!')
 else:
     print('Sua escolha foi IMPAR!')
