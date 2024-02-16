@@ -2,13 +2,53 @@
 #Mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
 
 # MINHA RESOLUÇÃO
-print('')
-jogador = int(input('Seu valor:  '))
-if jogador % 2 == 0:
-    print('Sua escolha foi PAR!')
-else:
-    print('Sua escolha foi IMPAR!')
-print('')
+from random import randint
+
+def jogar_par_impar():
+  """
+  Função para jogar par ou ímpar com o computador.
+  """
+  vitorias_consecutivas = 0
+  while True:
+    # Escolha do jogador
+    jogador_escolha = input("Digite 'par' ou 'ímpar': ").lower()
+    while jogador_escolha not in ("par", "ímpar"):
+      jogador_escolha = input("Digite 'par' ou 'ímpar': ").lower()
+
+    # Escolha do computador
+    computador_escolha = "ímpar" if randint(0, 1) == 0 else "par"
+
+    # Soma dos valores
+    soma = int(input("Digite um número: ")) + randint(0, 10)
+
+    # Resultado
+    resultado = "par" if soma % 2 == 0 else "ímpar"
+
+    # Exibir as escolhas e o resultado
+    print(f"Você escolheu {jogador_escolha} e o computador escolheu {computador_escolha}.")
+    print(f"A soma dos valores é {soma}, que é {resultado}.")
+
+    # Verificar o vencedor
+    if jogador_escolha == resultado:
+      print("Você ganhou!")
+      vitorias_consecutivas += 1
+    else:
+      print("O computador ganhou!")
+      break
+
+    # Perguntar se o jogador deseja continuar
+    continuar = input("Deseja continuar jogando (s/n)? ").lower()
+    if continuar not in ("s", "sim"):
+      break
+
+  print(f"Você conseguiu {vitorias_consecutivas} vitórias consecutivas!")
+
+# Iniciar o jogo
+jogar_par_impar()
+
+
+
+# -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # RESOLUÇÃO DE ACORDO COM O CURSO
 
