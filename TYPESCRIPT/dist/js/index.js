@@ -4,4 +4,6 @@ let x = 10;
 x = 16;
 console.log(x);
 
-let = Int16Array(InputDeviceInfo)
+
+// apenas um teste de codigos
+//let = Int16Array(InputDeviceInfo)
