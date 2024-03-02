@@ -29,6 +29,7 @@ while True:
     # Qual o nome do produto mais barato
     pMB = preco
     if preco < pMB: # está parte está errada
+        pMB = preco
         nome_produto_MB = nome
 
     # Pergunta se o usuário quer continuar
